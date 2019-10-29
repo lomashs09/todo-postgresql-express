@@ -1,4 +1,21 @@
 body{
     margin-top: 10px;
-    background: #f9f9f9;
+    background: #f4f4f4;
+}
+.items{
+    display: flex;
+    text-align: left;
+    margin:10px;
+}
+.delete{
+    margin-left: 20px;
+    display: flex;
+    justify-content: end;
+}
+input{
+    margin-right: 20px;
+    margin-top: 18px;
+}
+.list{
+    width:60%;
 }

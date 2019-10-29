@@ -1,5 +1,17 @@
 {> "layout" /}
 
-{<body}
-This is Index
+{<body} {#item}
+<div class="items">
+<input type = 'checkbox'>
+<div class="well items">
+<h4>{items}</h4> 
+<form method="POST" action='/delete'>
+    <button type="submit" name={id} class="btn btn-default pull-right" id={id}>X
+    </button>
+</form>
+</div>
+
+<br>
+</div>
+{/item}
 {/body}
